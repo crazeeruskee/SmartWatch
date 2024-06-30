@@ -1,0 +1,6 @@
+[submodule "sample_project/components/Arduino_GFX"]
+	path = sample_project/components/Arduino_GFX
+	url = https://github.com/moononournation/Arduino_GFX.git
+[submodule "sample_project/components/Adafruit_FT6206_Library"]
+	path = sample_project/components/Adafruit_FT6206_Library
+	url = https://github.com/adafruit/Adafruit_FT6206_Library.git
