@@ -417,3 +417,13 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/main/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Adafruit_FT6206_Library/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Arduino_GFX/cmake_install.cmake")
+endif()
+

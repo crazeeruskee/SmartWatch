@@ -5,6 +5,7 @@
 cmake_minimum_required(VERSION 3.16)
 
 set(EXTRA_COMPONENT_DIRS $ENV{HOME}/Documents/Engineering/SmartWatch/sample_project/components)
+set(EXTRA_COMPONENT_DIRS $ENV{HOME}/Documents/Engineering/SmartWatch/sample_project/components/esp32-arduino-lib-builder/components/arduino_tinyusb/tinyusb)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(main)

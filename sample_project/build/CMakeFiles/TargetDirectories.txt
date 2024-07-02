@@ -635,3 +635,17 @@
 /Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/main/CMakeFiles/install.dir
 /Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/main/CMakeFiles/install/local.dir
 /Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/main/CMakeFiles/install/strip.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Adafruit_FT6206_Library/CMakeFiles/__idf_Adafruit_FT6206_Library.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Adafruit_FT6206_Library/CMakeFiles/edit_cache.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Adafruit_FT6206_Library/CMakeFiles/rebuild_cache.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Adafruit_FT6206_Library/CMakeFiles/list_install_components.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Adafruit_FT6206_Library/CMakeFiles/install.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Adafruit_FT6206_Library/CMakeFiles/install/local.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Adafruit_FT6206_Library/CMakeFiles/install/strip.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Arduino_GFX/CMakeFiles/__idf_Arduino_GFX.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Arduino_GFX/CMakeFiles/edit_cache.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Arduino_GFX/CMakeFiles/rebuild_cache.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Arduino_GFX/CMakeFiles/list_install_components.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Arduino_GFX/CMakeFiles/install.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Arduino_GFX/CMakeFiles/install/local.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Arduino_GFX/CMakeFiles/install/strip.dir

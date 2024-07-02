@@ -62,3 +62,5 @@
 /Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/spiffs/libspiffs.a
 /Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 /Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/main/libmain.a
+/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Adafruit_FT6206_Library/libAdafruit_FT6206_Library.a
+/Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/esp-idf/Arduino_GFX/libArduino_GFX.a

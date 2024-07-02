@@ -1,0 +1,43 @@
+CMake Error at /Users/Lucas/esp/v5.2.1/esp-idf/tools/cmake/component.cmake:224 (message):
+  CMake Warning (dev) at build_properties.temp.cmake:8:
+
+    Syntax Warning in cmake code at column 106
+
+  
+
+    Argument not separated from preceding token by whitespace.
+
+  Call Stack (most recent call first):
+
+    /Users/Lucas/esp/v5.2.1/esp-idf/tools/cmake/scripts/component_get_requirements.cmake:3 (include)
+
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+
+  
+
+  CMake Error at
+  /Users/Lucas/Documents/Engineering/SmartWatch/sample_project/components/esp32-arduino-lib-builder/components/arduino_tinyusb/tinyusb/examples/CMakeLists.txt:4
+  (include):
+
+    include could not find requested file:
+
+  
+
+      /Users/Lucas/Documents/Engineering/SmartWatch/sample_project/build/../hw/bsp/family_support.cmake
+
+  Call Stack (most recent call first):
+
+    /Users/Lucas/esp/v5.2.1/esp-idf/tools/cmake/scripts/component_get_requirements.cmake:107 (include)
+    /Users/Lucas/esp/v5.2.1/esp-idf/tools/cmake/scripts/component_get_requirements.cmake:127 (__component_get_requirements)
+
+  
+
+  
+
+Call Stack (most recent call first):
+  /Users/Lucas/esp/v5.2.1/esp-idf/tools/cmake/build.cmake:578 (__component_get_requirements)
+  /Users/Lucas/esp/v5.2.1/esp-idf/tools/cmake/project.cmake:605 (idf_build_process)
+  CMakeLists.txt:11 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed
