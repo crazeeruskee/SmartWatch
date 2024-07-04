@@ -1,8 +1,0 @@
-CMake Error at /Users/Lucas/esp/v5.2.1/esp-idf/tools/cmake/project.cmake:407 (message):
-  Directory specified in EXTRA_COMPONENT_DIRS doesn't exist:
-  /Users/Lucas/components
-Call Stack (most recent call first):
-  /Users/Lucas/esp/v5.2.1/esp-idf/tools/cmake/project.cmake:491 (__project_init)
-  CMakeLists.txt:10 (project)
-
-

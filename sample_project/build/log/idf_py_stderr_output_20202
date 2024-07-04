@@ -1,0 +1,17 @@
+CMake Error at /Users/Lucas/esp/esp-idf/tools/cmake/build.cmake:583 (message):
+  WARNING: Component "idf" not found
+
+  WARNING: Component "idf" not found
+
+  WARNING: Component "idf" not found
+
+  WARNING: Component "idf" not found
+
+  ERROR: Because project depends on idf (>=5.1,<5.2) which doesn't match any
+  versions, version solving failed.
+
+Call Stack (most recent call first):
+  /Users/Lucas/esp/esp-idf/tools/cmake/project.cmake:710 (idf_build_process)
+  CMakeLists.txt:11 (project)
+
+
