@@ -1,0 +1,1 @@
+ninja: error: '/Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/main/smartwatch.c', needed by 'esp-idf/main/CMakeFiles/__idf_main.dir/smartwatch.c.obj', missing and no known rule to make it

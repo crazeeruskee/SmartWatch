@@ -2,11 +2,11 @@
  * @file FT6206.h
  */
 
-#ifndef ADAFRUIT_FT6206_LIBRARY
-#define ADAFRUIT_FT6206_LIBRARY
+#ifndef FT6206_LIBRARY
+#define FT6206_LIBRARY
 
-#include "Arduino.h"
-#include <Adafruit_I2CDevice.h>
+//#include "Arduino.h"
+//#include <Adafruit_I2CDevice.h>
 
 #define FT62XX_DEFAULT_ADDR 0x38   //!< I2C address
 #define FT62XX_G_FT5201ID 0xA8     //!< FocalTech's panel ID
@@ -59,9 +59,9 @@ public:
    capacitive touch chips
 */
 /**************************************************************************/
-class Adafruit_FT6206 {
+class FT6206 {
 public:
-  Adafruit_FT6206(void);
+  FT6206(void);
   bool begin(uint8_t thresh = FT62XX_DEFAULT_THRESHOLD,
              TwoWire *theWire = &Wire, uint8_t i2c_addr = FT62XX_DEFAULT_ADDR);
   uint8_t touched(void);
@@ -79,4 +79,4 @@ private:
   uint16_t touchX[2], touchY[2], touchID[2];
 };
 
-#endif // ADAFRUIT_FT6206_LIBRARY
+#endif // FT6206_LIBRARY
