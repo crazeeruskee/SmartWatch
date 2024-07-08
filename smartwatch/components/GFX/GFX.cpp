@@ -2,8 +2,6 @@
 #include "GFX.h"
 
 
-
-
 void func(void){
 
 
