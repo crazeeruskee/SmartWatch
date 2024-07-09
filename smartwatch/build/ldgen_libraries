@@ -65,4 +65,5 @@
 /Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 /Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/main/libmain.a
 /Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/GFX/libGFX.a
+/Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/I2C/libI2C.a
 /Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/Touch/libTouch.a

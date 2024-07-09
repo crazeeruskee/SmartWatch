@@ -660,6 +660,13 @@
 /Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/GFX/CMakeFiles/install.dir
 /Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/GFX/CMakeFiles/install/local.dir
 /Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/GFX/CMakeFiles/install/strip.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/I2C/CMakeFiles/__idf_I2C.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/I2C/CMakeFiles/edit_cache.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/I2C/CMakeFiles/rebuild_cache.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/I2C/CMakeFiles/list_install_components.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/I2C/CMakeFiles/install.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/I2C/CMakeFiles/install/local.dir
+/Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/I2C/CMakeFiles/install/strip.dir
 /Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/Touch/CMakeFiles/__idf_Touch.dir
 /Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/Touch/CMakeFiles/edit_cache.dir
 /Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/Touch/CMakeFiles/rebuild_cache.dir
