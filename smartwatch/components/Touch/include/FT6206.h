@@ -5,6 +5,8 @@
 #ifndef FT6206_LIBRARY
 #define FT6206_LIBRARY
 
+#include "driver/i2c.h"
+
 //#include "Arduino.h"
 //#include <Adafruit_I2CDevice.h>
 
@@ -62,15 +64,15 @@ public:
 class FT6206 {
 public:
   FT6206(void);
-  bool begin(uint8_t thresh = FT62XX_DEFAULT_THRESHOLD,
-             TwoWire *theWire = &Wire, uint8_t i2c_addr = FT62XX_DEFAULT_ADDR);
+  //bool begin(uint8_t thresh = FT62XX_DEFAULT_THRESHOLD,
+  //           TwoWire *theWire = &Wire, uint8_t i2c_addr = FT62XX_DEFAULT_ADDR);
   uint8_t touched(void);
   TS_Point getPoint(uint8_t n = 0);
 
   // void autoCalibrate(void);
 
 private:
-  Adafruit_I2CDevice *i2c_dev = NULL; ///< Pointer to I2C bus interface
+  //Adafruit_I2CDevice *i2c_dev = NULL; ///< Pointer to I2C bus interface
   void writeRegister8(uint8_t reg, uint8_t val);
   uint8_t readRegister8(uint8_t reg);
 

@@ -52,7 +52,7 @@ bool FT6206::begin(uint8_t thresh, TwoWire *theWire,
                             uint8_t i2c_addr) {
   if (i2c_dev)
     delete i2c_dev;
-  i2c_dev = new Adafruit_I2CDevice(i2c_addr, theWire);
+  //i2c_dev = new Adafruit_I2CDevice(i2c_addr, theWire);
   if (!i2c_dev->begin())
     return false;
 /*

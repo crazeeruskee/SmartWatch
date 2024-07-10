@@ -65,5 +65,4 @@ $<TARGET_FILE:__idf_usb>
 $<TARGET_FILE:__idf_wifi_provisioning>
 $<TARGET_FILE:__idf_main>
 $<TARGET_FILE:__idf_GFX>
-$<TARGET_FILE:__idf_I2C>
 $<TARGET_FILE:__idf_Touch>
