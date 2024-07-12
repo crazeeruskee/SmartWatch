@@ -64,8 +64,8 @@ public:
 class FT6206 {
 public:
   FT6206(void);
-  //bool begin(uint8_t thresh = FT62XX_DEFAULT_THRESHOLD,
-  //           TwoWire *theWire = &Wire, uint8_t i2c_addr = FT62XX_DEFAULT_ADDR);
+  bool begin(uint8_t thresh = FT62XX_DEFAULT_THRESHOLD,
+             /*TwoWire *theWire = &Wire,*/ uint8_t i2c_addr = FT62XX_DEFAULT_ADDR);
   uint8_t touched(void);
   TS_Point getPoint(uint8_t n = 0);
 

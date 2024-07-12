@@ -48,7 +48,7 @@ FT6206::FT6206() { touches = 0; }
     @returns True if an FT captouch is found, false on any failure
 */
 /**************************************************************************/
-bool FT6206::begin(uint8_t thresh, TwoWire *theWire,
+bool FT6206::begin(uint8_t thresh, /*TwoWire *theWire,*/
                             uint8_t i2c_addr) {
   if (i2c_dev)
     delete i2c_dev;

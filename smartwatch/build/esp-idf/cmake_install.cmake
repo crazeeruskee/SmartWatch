@@ -424,11 +424,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/GFX/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build/esp-idf/Touch/cmake_install.cmake")
 endif()
 
