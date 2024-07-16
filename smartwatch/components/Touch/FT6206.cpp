@@ -50,11 +50,11 @@ FT6206::FT6206() { touches = 0; }
 /**************************************************************************/
 bool FT6206::begin(uint8_t thresh, /*TwoWire *theWire,*/
                             uint8_t i2c_addr) {
-  if (i2c_dev)
-    delete i2c_dev;
+  //if (i2c_dev)
+ //   delete i2c_dev;
   //i2c_dev = new Adafruit_I2CDevice(i2c_addr, theWire);
-  if (!i2c_dev->begin())
-    return false;
+  //if (!i2c_dev->begin())
+ //   return false;
 /*
 #ifdef FT6206_DEBUG
   Serial.print("Vend ID: 0x");
@@ -137,11 +137,11 @@ TS_Point FT6206::getPoint(uint8_t n) {
 /**************************************************************************/
 void FT6206::readData(void) {
 
-  uint8_t i2cdat[16];
+//  uint8_t i2cdat[16];
   uint8_t addr = 0;
-  i2c_dev->write_then_read(&addr, 1, i2cdat, 16);
+//  i2c_dev->write_then_read(&addr, 1, i2cdat, 16);
 
-  touches = i2cdat[0x02];
+ // touches = i2cdat[0x02];
 #ifdef FT6206_DEBUG
   Serial.print("# Touches: ");
   Serial.println(touches);
@@ -153,24 +153,24 @@ void FT6206::readData(void) {
 #ifdef FT6206_DEBUG
   for (uint8_t i = 0; i < 16; i++) {
     Serial.print("0x");
-    Serial.print(i2cdat[i], HEX);
+   // Serial.print(i2cdat[i], HEX);
     Serial.print(" ");
   }
   Serial.println();
-  if (i2cdat[0x01] != 0x00) {
+/*  if (i2cdat[0x01] != 0x00) {
     Serial.print("Gesture #");
     Serial.println(i2cdat[0x01]);
-  }
+  }*/
 #endif
 
   for (uint8_t i = 0; i < 2; i++) {
-    touchX[i] = i2cdat[0x03 + i * 6] & 0x0F;
+   // touchX[i] = i2cdat[0x03 + i * 6] & 0x0F;
     touchX[i] <<= 8;
-    touchX[i] |= i2cdat[0x04 + i * 6];
-    touchY[i] = i2cdat[0x05 + i * 6] & 0x0F;
+   // touchX[i] |= i2cdat[0x04 + i * 6];
+   // touchY[i] = i2cdat[0x05 + i * 6] & 0x0F;
     touchY[i] <<= 8;
-    touchY[i] |= i2cdat[0x06 + i * 6];
-    touchID[i] = i2cdat[0x05 + i * 6] >> 4;
+   // touchY[i] |= i2cdat[0x06 + i * 6];
+   // touchID[i] = i2cdat[0x05 + i * 6] >> 4;
   }
 
 #ifdef FT6206_DEBUG
@@ -190,13 +190,13 @@ void FT6206::readData(void) {
 
 uint8_t FT6206::readRegister8(uint8_t reg) {
   uint8_t buffer[1] = {reg};
-  i2c_dev->write_then_read(buffer, 1, buffer, 1);
+  //i2c_dev->write_then_read(buffer, 1, buffer, 1);
   return buffer[0];
 }
 
 void FT6206::writeRegister8(uint8_t reg, uint8_t val) {
   uint8_t buffer[2] = {reg, val};
-  i2c_dev->write(buffer, 2);
+  //i2c_dev->write(buffer, 2);
 }
 
 /*
