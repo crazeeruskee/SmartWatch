@@ -16,7 +16,7 @@ bool isFocalTouch = false;
 
 
 
-void app_main(void){
+extern void app_main(void){
 
     if (!focal_ctp.begin(0, /*&Wire,*/ I2C_TOUCH_ADDR)) {
         //        // Try the CST826 Touch Screen

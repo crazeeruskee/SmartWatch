@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "smartwatch",
-    "project_version":    "940d192-dirty",
+    "project_version":    "fd8b1b9-dirty",
     "project_path":       "/Users/Lucas/Documents/Engineering/SmartWatch/smartwatch",
     "idf_path":           "/Users/Lucas/esp/esp-idf",
     "build_dir":          "/Users/Lucas/Documents/Engineering/SmartWatch/smartwatch/build",
