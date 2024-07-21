@@ -1,5 +1,7 @@
-#include <stdio.h>
-#include <FT6206.h>
+extern "C"{
+    #include <stdio.h>
+    #include <FT6206.h>
+}
 
 // The Capacitive touchscreen overlays uses hardware I2C (SCL/SDA)
 
@@ -15,7 +17,7 @@ bool touchOK = false;        // we will check if the touchscreen exists
 bool isFocalTouch = false;
 
 
-
+extern "C"{
 extern void app_main(void){
 
     if (!focal_ctp.begin(0, /*&Wire,*/ I2C_TOUCH_ADDR)) {
@@ -46,4 +48,5 @@ extern void app_main(void){
 //            gfx->fillRect(p.x, p.y, 5, 5, WHITE);
         }
     }
+}
 }
