@@ -10640,7 +10640,7 @@
     (property "Value" "PCA9554AD" (at 71.12 171.45 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "SOT162-1_NXP" (at 63.5 144.78 0)
+    (property "Footprint" "PCA9554AD:SOT338-1_NXP-L" (at 63.5 144.78 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "PCA9554AD" (at 63.5 144.78 0)
